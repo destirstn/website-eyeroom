@@ -1,0 +1,128 @@
+.page-section {
+    padding: 3rem 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  .page-section h2.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+  }
+  .page-section h3.section-subheading {
+    font-size: 1rem;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 4rem;
+  }
+  .text-uppercase {
+    text-transform: uppercase !important;
+  }
+  .text-muted {
+    --bs-text-opacity: 1;
+    color: #d1d1d1 !important;
+  }
+  .container-team {
+    width: 90%;
+    border-radius: 20px;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  .row-team {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .team-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  }
+  .team-member h4, .team-member .h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    color: whitesmoke;
+  }
+  .mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .rounded-circle {
+    border-radius: 50% !important;
+  }
+  .btn-dark {
+    color: #212529;
+    background-color: #fff;
+    border-color: #fff;
+  }
+  .btn-dark:hover {
+    color: #fff;
+    background-color: #1c1f23;
+    border-color: #1a1e21;
+  }
+  .btn-dark:focus {
+    color: #fff;
+    background-color: #1c1f23;
+    border-color: #1a1e21;
+    box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
+  }
+  .btn-social {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+  }
+  .mx-2 {
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .col-lg-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+  .mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  @media screen and (max-width:1050px){
+    .row-team {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .col-lg-4 {
+      width: 50%;
+    }
+    .team-member img {
+      vertical-align: middle;
+    }
+  }
+
+  @media screen and (max-width:500px){
+    .row-team {
+      display: block;
+      flex-wrap: wrap;
+    }
+    .col-lg-4 {
+      width: 100%;
+    }
+    .team-member img {
+      vertical-align: middle;
+    }
+  }
+
+

@@ -1,0 +1,102 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container {
+  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+@font-face {
+  font-family: haifont;
+  src: url(./Judul/TitanOne-Regular.ttf);
+}
+
+.hero-container > h1 {
+  color: #fff;
+  font-size: 70px;
+  font-family: 'haifont';
+  font-weight: 600;
+  margin-top: -100px;
+}
+
+
+@font-face {
+  font-family: weyfont;
+  src: url(./Subjudul/Lora-VariableFont_wght.ttf);
+}
+
+.hero-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'weyfont';
+}
+
+.hero-btns {
+  margin-top: 24px;
+
+}
+
+@font-face {
+  font-family: confont;
+  src: url(./Content/HindMadurai-Medium.ttf);
+  
+}
+
+.hero-btns .btn {
+  font-family: 'confont';
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 36px;
+    margin-top: -100px;
+  }
+
+  .hero-container > p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .hero-btns {
+    margin-top: 10px;
+  }
+
+  .hero-btns .btn {
+    font-size: 18px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

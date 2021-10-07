@@ -1,0 +1,44 @@
+.carousel-item img{
+    height: 600px;
+}
+
+@font-face {
+    font-family: weyfont;
+    src: url(./Subjudul/Lora-VariableFont_wght.ttf);
+  }
+
+.carousel-caption h3{
+    font-family: 'weyfont';
+    background-color: white;
+    color: #4bad6c;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+
+@font-face {
+    font-family: confont;
+    src: url(./Content/HindMadurai-Medium.ttf);
+  }
+
+.carousel-caption p{
+    font-family: 'confont';
+    background-color: white;
+    color: #4bad6c;
+    font-size: 24px;
+}
+
+@media screen and (max-width : 768px) {
+.carousel-item img{
+    height: 300px;
+}
+
+.carousel-caption h3{
+    font-size: 20px;
+}
+
+.carousel-caption p{
+    font-size: 14px;
+}
+}
